@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'Druk Wide';
+	src: url('../fonts/Druk-Wide.woff2') format('woff2'),
+		 url('../fonts/Druk-Wide.woff') format('woff');
+	font-style: normal;
+	font-weight: 500;
+}
+
 :root {
 	box-sizing: border-box;
 	--main-color: #1F2326;
@@ -233,6 +241,7 @@ li {
 	background-color: var(--main-color);
 	border: 2px solid var(--white);
 }
+
 .list-item .hidden-menu {
 	left: 0;
 }
@@ -272,9 +281,9 @@ li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-blend-mode: multiply;
-	box-shadow: 
+	/* box-shadow: 
 		0px -70px 40px 20px rgba(0, 0, 0, 0.2), 
-		0px 70px 40px 20px rgba(0, 0, 0, 0.2);
+		0px 70px 40px 20px rgba(0, 0, 0, 0.2); */
 }
 
 .agents {
